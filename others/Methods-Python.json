@@ -25,5 +25,19 @@
         "extend()" : "",
         "index()" : "",
         "clear()" : ""
+    },
+
+    "Dictionary" : {
+        "copy()" : "",
+        "clear()" : "",
+        "fromkeys()" : "",
+        "items()" : "",
+        "get()" : "",
+        "keys()" : "",
+        "pop()" : "",
+        "values()" : "",
+        "update()" : "",
+        "setdefault()" : "",
+        "popitem()" : ""
     }
 }
