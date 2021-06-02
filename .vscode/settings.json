@@ -16,6 +16,21 @@
             "foreground": "black",
             "iconColour": "yellow",
             "gutterIcon": true
+        },
+        "BECAREFUL": {
+            "foreground": "brown",
+            "iconColour": "red",
+            "gutterIcon": true
         }
-    }
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "BECAREFUL",
+        "[ ]",
+        "[x]"
+    ]
 }
