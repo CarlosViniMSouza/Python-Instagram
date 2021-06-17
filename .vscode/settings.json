@@ -32,5 +32,6 @@
         "BECAREFUL",
         "[ ]",
         "[x]"
-    ]
+    ],
+    "python.pythonPath": "C:\\Users\\CarlosViniMSouza\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
