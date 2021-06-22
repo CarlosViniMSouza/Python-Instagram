@@ -9,4 +9,4 @@ else:
 if all(condition):
     print("Condition okay")
 else:
-    print("Condition not-okay")
+    print("Condition not-okay")    
