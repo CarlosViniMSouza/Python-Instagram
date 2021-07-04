@@ -1,8 +1,15 @@
 # pip install pytube
 
-from pytube import YouTube
+import pytube
 
-link = input("Enter URL of video: ")
-video = YouTube(link)
-stream = video.streams.get_highest_resolution()
-stream.download()
+link = input("URL Video: ")
+
+video = pytube.YouTube(link)
+
+print(f'Downloading Video: {yt.title}')
+
+stream = video.streams.first()
+
+stream.download(output_patch='./Downloads')
+
+print("Download Completed")
