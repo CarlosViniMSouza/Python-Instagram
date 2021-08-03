@@ -10,7 +10,7 @@ class MyFrame(wx.Frame):
         self.text_ctrl = wx.TextCtrl(panel)
 
         my_btn = wx.Button(panel, label="Press here")
-        my_sizer.Add(my_btn, 0, wx.ALL |wx.CENTER, 5)
+        my_sizer.Add(my_btn, 0, wx.ALL | wx.CENTER, 5)
 
         panel.SetSizer(my_sizer)
         self.Show()
